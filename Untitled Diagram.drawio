@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T10:13:36.185Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="k3n9phAg8gM-hWOUx8Ma" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T11:09:18.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="d7PngWn4BDJ7P376N-aS" version="14.1.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2035" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1831" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="录音页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="速记文档页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="80" width="100" height="890" as="geometry" />
         </mxCell>
         <mxCell id="lska-nqNR5aCgoqL8xmS-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1" source="3nuBFxr9cyL0pnOWT2aG-2" target="lska-nqNR5aCgoqL8xmS-29">
@@ -186,12 +186,6 @@
             <mxPoint x="294.1399999999999" y="517.49" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lska-nqNR5aCgoqL8xmS-53" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="210" y="892" as="sourcePoint" />
-            <mxPoint x="290" y="892" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="lska-nqNR5aCgoqL8xmS-52" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="-180" y="842" width="30" height="60" as="geometry" />
         </mxCell>
@@ -205,6 +199,45 @@
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="-150" y="871.71" as="sourcePoint" />
             <mxPoint x="170" y="872" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lska-nqNR5aCgoqL8xmS-72" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="880" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lska-nqNR5aCgoqL8xmS-74" value="云存储" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="80" width="100" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="lska-nqNR5aCgoqL8xmS-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lska-nqNR5aCgoqL8xmS-74" source="lska-nqNR5aCgoqL8xmS-76" target="lska-nqNR5aCgoqL8xmS-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lska-nqNR5aCgoqL8xmS-76" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="lska-nqNR5aCgoqL8xmS-74">
+          <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lska-nqNR5aCgoqL8xmS-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lska-nqNR5aCgoqL8xmS-74" source="lska-nqNR5aCgoqL8xmS-78" target="lska-nqNR5aCgoqL8xmS-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lska-nqNR5aCgoqL8xmS-78" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="lska-nqNR5aCgoqL8xmS-74">
+          <mxGeometry x="45" y="340" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="lska-nqNR5aCgoqL8xmS-79" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="lska-nqNR5aCgoqL8xmS-74">
+          <mxGeometry x="45" y="780" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="lska-nqNR5aCgoqL8xmS-80" value="音频上传" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.348;exitY=0.211;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lska-nqNR5aCgoqL8xmS-72">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="930" as="sourcePoint" />
+            <mxPoint x="710" y="931" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lska-nqNR5aCgoqL8xmS-83" value="上传成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.159;exitY=0.348;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.348;entryY=0.439;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lska-nqNR5aCgoqL8xmS-79" target="lska-nqNR5aCgoqL8xmS-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="985" as="sourcePoint" />
+            <mxPoint x="260" y="985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lska-nqNR5aCgoqL8xmS-84" value="上报到服务端（大小、时长）" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="lska-nqNR5aCgoqL8xmS-69">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="180" y="1030" as="sourcePoint" />
+            <mxPoint x="260" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
